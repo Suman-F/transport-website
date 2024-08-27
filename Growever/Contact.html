@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Growever</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet">
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"></script>
+  <link href="Style.css" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <link href='https://fonts.googleapis.com/css?family=Josefin Sans' rel='stylesheet'>
+  <link href='https://fonts.googleapis.com/css?family=Rubik' rel='stylesheet'>
+  <link href='https://fonts.googleapis.com/css?family=Saira Extra Condensed' rel='stylesheet'>
+  <script src="Script.js"></script>
+</head>
+<body>
+
+ <!-- Navbar Start -->
+ <nav class="navbar navbar-expand-lg bg-white navbar-light shadow border-top border-5 border-primary sticky-top p-0">
+    <a href="index.html" class=" d-flex align-items-center px-4 px-lg-5"><img src="Images/Logo.png" style="width: 150px;" alt="..." />
+        <!-- <h2 class="mb-2 text-white">Logistica</h2> -->
+    </a>
+    <button type="button" class="navbar-toggler me-4" data-bs-toggle="collapse" data-bs-target="#navbarCollapse">
+        <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarCollapse">
+        <div class="navbar-nav ms-auto p-4 p-lg-0">
+            <a href="Index.html" class="nav-item nav-link active">Home</a>
+            <a href="about.html" class="nav-item nav-link">About</a>
+            <a href="Service.html" class="nav-item nav-link">Services</a>
+            <a href="Contact.html" class="nav-item nav-link">Contact</a>
+            <a href="#" class="nav-item nav-link excol" onclick="Login()">LOGIN</a>
+            <a href="#" class="nav-item nav-link exol" onclick="Tracking()">TRACKING</a>
+        </div>
+        <h4 class="m-0 pe-lg-5 d-none d-lg-block to-n"><i class="fa fa-phone i-call me-3"></i>8790527696</h4>
+    </div>
+</nav>
+<!-- Navbar End -->
+<div class="service-banner">
+<h1 class="bannertx">Contact Us</h1>
+</div>
+<div class="container">
+
+    <div class="row" style="margin-top: 100px;">
+      
+         
+        <div class="col-md-5">
+            <div class="elementor-heading-title elementor-size-default" id="con">Contact</div>
+            <h6 class="sup-tx">For Your Contact</h6>
+            <h1 class="ser-head">Contact  <span style="color: yellow;">Us</span></h1>
+            <br>
+            <br>
+           <h4 class="con-head">Our Address : </h4>
+           <p class="con-sub">67/2 Rt Prakash Nagar<br>
+            Begumpet Hyderabad 500016</p>
+            <br>
+            <h4 class="con-head">Contact 24/7 </h4>
+            <p class="con-sub">+91-9848019269 / +91-8790527696</p>
+            
+            <br>
+
+            <h4 class="con-head">Email Address </h4>
+            <p class="con-sub">exmaple@gmail.com </p>
+            <br>
+            <!-- <button type="button" class="btn btn-warning ba-btn">Get A Quote</button> -->
+       
+        </div>
+        <div class="col-md-1"></div>
+        <div class="col-md-6">
+            <form>
+                <div class="mb-3">
+                  <input type="text" class="form-control inputbox" id="name" placeholder="Your Name"> 
+                </div>
+                <br>
+                <div class="mb-3">
+                    <input type="number" class="form-control inputbox" id="Phone" placeholder="Phone No"> 
+                  </div>
+                  <br>
+                  <div class="mb-3">
+                    <input type="text" class="form-control inputbox" id="Email" placeholder="Email"> 
+                  </div><br>
+                  <div class="mb-3">
+                    <label for="Message" class="form-label">Message :</label>
+                    <textarea class="form-control" id="Message" style="border-radius: 0px;"></textarea>
+                  </div>
+                  <br>
+               <center>
+                <button type="button" class="btn btn-warning submit-button">Submit</button>
+            </center>
+              </form>
+       
+            </div>
+       
+    </div>
+
+</div>
+  
+
+ <!-- Footer Start -->
+ <div class="text-light footer pt-5 wow fadeIn ftcol" data-wow-delay="0.1s" style="margin-top: 6rem;">
+  <div class="container py-5">
+      <div class="row g-5">
+          <div class="col-lg-3 col-md-6">
+              <h4 class="text-light mb-4">Address</h4>
+              <p class="mb-2" style="font-size: 13px;"><i class="fa fa-map-marker me-3"></i>67/2 Rt Prakash Nagar
+                Begumpet Hyderabad 500016</p>
+              <p class="mb-2"><i class="fa fa-phone me-3"></i>+91-9848019269</p>
+              <p class="mb-2"><i class="fa fa-envelope me-3"></i>sample@yahoo.com</p>
+              <!-- <div class="d-flex pt-2">
+                  <a class="btn btn-outline-light btn-social" href=""><i class="fab fa-twitter"></i></a>
+                  <a class="btn btn-outline-light btn-social" href=""><i class="fab fa-facebook-f"></i></a>
+                  <a class="btn btn-outline-light btn-social" href=""><i class="fab fa-youtube"></i></a>
+                  <a class="btn btn-outline-light btn-social" href=""><i class="fab fa-linkedin-in"></i></a>
+              </div> -->
+          </div>
+          <div class="col-lg-3 col-md-6">
+              <h4 class="text-light mb-4">Services</h4>
+              <a class="btn btn-link" href="">Air Freight</a>
+              <a class="btn btn-link" href="">Sea Freight</a>
+              <a class="btn btn-link" href="">Road Freight</a>
+              <a class="btn btn-link" href="">Logistic Solutions</a>
+              <a class="btn btn-link" href="">Industry solutions</a>
+          </div>
+          <div class="col-lg-3 col-md-6">
+              <h4 class="text-light mb-4">Quick Links</h4>
+              <a class="btn btn-link" href="about.html">About Us</a>
+              <a class="btn btn-link" href="contact.html">Contact Us</a>
+              <a class="btn btn-link" href="service.html">Our Services</a>
+              <a class="btn btn-link" href="">Terms & Condition</a>
+              <a class="btn btn-link" href="">Support</a>
+          </div>
+          <div class="col-lg-3 col-md-6">
+              <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d448193.9510425129!2d76.76356411312419!3d28.644287350633892!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x390cfd5b347eb62d%3A0x37205b715389640!2sDelhi!5e0!3m2!1sen!2sin!4v1683974923517!5m2!1sen!2sin"  style="border:0;height: 200px;width: 100%;box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+          </div>
+      </div>
+  </div>
+  
+  <div style="background-color: black;">
+      <br>
+  <div class="container">
+      <div class="copyright">
+          <div class="row">
+              <div class="col-md-6 text-center text-md-start mb-3 mb-md-0">
+                  &copy; <a class="border-bottom" style="text-decoration: none;" href="#">Growever</a> , All Right Reserved.
+              </div>
+              <div class="col-md-6 text-center text-md-end">
+                  <!--/*** This template is free as long as you keep the footer author’s credit link/attribution link/backlink. If you'd like to use the template without the footer author’s credit link/attribution link/backlink, you can purchase the Credit Removal License from "https://htmlcodex.com/credit-removal". Thank you for your support. ***/-->
+                  Design and Developed by <a class="border-bottom" style="text-decoration: none;"  href="http://www.authorcodeindia.com/index.html">Authorcode Pvt. Ltd.</a>
+                 
+              </div>
+          </div>
+          </div>
+      </div>
+      <br>
+  </div>
+</div>
+<!-- Footer End -->
+</body>
+</html>
